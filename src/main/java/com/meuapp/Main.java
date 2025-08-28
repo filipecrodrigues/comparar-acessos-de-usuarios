@@ -7,9 +7,12 @@ public class Main {
         //Tratamento de exceções
 
         try{
-            CompararGruposExcel.executar();
-        }catch (Exception e){
-            e.printStackTrace();
+            //Execulta o comparador de acessos
+            ComparadorAcessosExcel.executar();
+
+        }catch (Exception erro){
+            System.out.println("❌ Erro na aplicação: "+ erro.getMessage());
+            erro.printStackTrace();
         }
     }
 }
