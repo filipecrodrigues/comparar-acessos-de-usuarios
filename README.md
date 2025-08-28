@@ -14,19 +14,16 @@ comparar-acessos-de-usuarios/
 │   │   └── java/
 │   │       └── com/
 │   │           └── meuapp/
-│   │               └── comparargrupos/
-│   │                   ├── Main.java        # Classe principal
-|   |                   ├── CompararGruposExcel.java   # Lógica de comparação de grupos        
-│   │                   └── ExcelUtils.java  # Utilitário para leitura e geração de Excel
+|   |                   ├── ComparadorAcessoExcel.java   # Lógica de comparação de grupos 
+│   │                   ├── GeradorExcel.java            # Cria o arquivo de Excel      
+│   │                   ├── Main.java                    # Classe Main
+|   |                   └── ProcessadorExcel.java        # Classe Utilitaria para porcessar Arquivos Excel
 │   └── test/
 │       └── java/
-│           └── com/
-│               └── meuapp/
-│                   └── comparargrupos/
-│                       └── ExcelUtilsTest.java  # Testes unitários JUnit
+│         
+├── .gitignore
 ├── pom.xml           # Configuração Maven
-├── README.md         # Documentação do projeto
-└── .gitignore
+└── README.md         # Documentação do projeto
 ```
 
 ---
