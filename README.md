@@ -1,4 +1,4 @@
-# 📊 Comparar Grupos entre Usuários (Excel - Java)
+# 📊 Comparar Acessos entre Usuários (Excel - Java)
 
 Este projeto tem como objetivo comparar os acessos que dois usuários possuem em arquivos Excel diferentes e gerar um novo arquivo com os acessos que o um usuário X tem a mais em relação a um usuário Y.  
 Dessa forma, o usuário Y pode receber os mesmos acessos para padronização de acessos.
