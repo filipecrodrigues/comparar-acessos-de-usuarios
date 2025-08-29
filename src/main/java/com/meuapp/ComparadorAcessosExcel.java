@@ -37,7 +37,7 @@ public class ComparadorAcessosExcel {
 
         //obter nomes dos usuarios(primeiro de cada arquivo)
         String nomeUsuarioReferencia = obterPrimeiroUsuario(dadosUsuarioReferencia);
-        String nomeUsuarioComparar = obterPriemiroUsuario(dadosUsuarioComparar);
+        String nomeUsuarioComparar = obterPrimeiroUsuario(dadosUsuarioComparar);
 
         //obter acessos de cada usuario
         String acessosUsuarioReferencia = dadosUsuarioReferencia.get(nomeUsuarioReferencia);
