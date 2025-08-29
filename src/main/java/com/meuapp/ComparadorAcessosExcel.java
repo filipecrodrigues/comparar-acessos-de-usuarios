@@ -18,7 +18,7 @@ public class ComparadorAcessosExcel {
         JOptionPane.showMessageDialog(null,"🔍 Selecione o arquivo Excel do PRIMEIRO usuário (referência)");
 
         File arquivoUsuarioReferencia = selecionarArquivo();
-        if (arquivoUsuarioReferencia = null){
+        if (arquivoUsuarioReferencia == null){
             JOptionPane.showMessageDialog(null,"⚠️ Operação cancelada pelo usuário");
             return;
         }
@@ -26,7 +26,7 @@ public class ComparadorAcessosExcel {
         //seleciona arquivo segundo usuario
         JOptionPane.showMessageDialog(null, "🔍 Selecione o arquivo Excel do SEGUNDO usuário (para comparar)");
         File arquivoUsuarioComparar  = selecionarArquivo();
-        if (arquivoUsuarioComparar = null){
+        if (arquivoUsuarioComparar == null){
             JOptionPane.showMessageDialog(null,  "⚠️ Operação cancelada pelo usuário");
             return;
         }
